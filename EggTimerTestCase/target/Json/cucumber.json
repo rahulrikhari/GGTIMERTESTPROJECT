@@ -1,0 +1,70 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 9,
+        "name": "Check timer increament",
+        "description": "",
+        "id": "egg-timer-increment;check-timer-increament",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 15609478607,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Enter URL",
+            "match": {
+              "location": "StepDefinition.enter_URL()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8008724435,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Remove default value and When enter 25 second and click go",
+            "match": {
+              "arguments": [
+                {
+                  "val": "25",
+                  "offset": 36
+                }
+              ],
+              "location": "StepDefinition.remove_default_value_and_When_enter_second_and_click_go(int)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1753778556,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Timer start with decrement",
+            "match": {
+              "location": "StepDefinition.timer_start_with_decrement()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test"
+          }
+        ]
+      }
+    ],
+    "name": "Egg Timer Increment",
+    "description": "",
+    "id": "egg-timer-increment",
+    "keyword": "Feature",
+    "uri": "EggTimer.feature",
+    "tags": []
+  }
+]
